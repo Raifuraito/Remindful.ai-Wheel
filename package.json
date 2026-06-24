@@ -1,0 +1,15 @@
+{
+  "name": "wheel-of-fortune-rewards",
+  "version": "1.0.0",
+  "description": "Shared project gamification with Wheel of Fortune rewards",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0"
+  }
+}

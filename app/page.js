@@ -267,7 +267,7 @@ export default function DevWheel(){
       <div style={{maxWidth:1400,margin:'0 auto'}}>
         <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:20}}>
           <h1 style={{fontSize:28,margin:0,color:'#4ECDC4'}}>⚙️ Admin Panel</h1>
-          <button onClick={()=>{setIsAdmin(false);setPassInput('');}}>
+          <button onClick={()=>{setIsAdmin(false);setPassInput('');}}
             style={{padding:'8px 16px',background:'#FF6B6B',border:'none',borderRadius:8,color:'#fff',fontWeight:700,cursor:'pointer'}}>
             🚪 Logout
           </button>

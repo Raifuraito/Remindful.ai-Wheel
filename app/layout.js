@@ -1,14 +1,14 @@
+import './globals.css'  // Your existing styles
+
 export const metadata = {
-  title: '🎡 Wheel of Fortune - Project Rewards',
-  description: 'Gamified project rewards with a wheel of fortune spinner',
-};
+  title: 'DevWheel',
+  description: 'Spin wheels, earn rewards!',
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, padding: 0 }}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
